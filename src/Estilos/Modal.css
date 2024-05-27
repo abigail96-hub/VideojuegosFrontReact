@@ -1,0 +1,102 @@
+.divModal {
+    max-width: 350px;
+    margin: 50px auto;
+    background-color: #eee;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0pc 0pc 10px white;
+    position: relative;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 5px auto;
+
+        label {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        input[type='text'],
+        input[type='number'],
+        textarea {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            padding: 1px 5px;
+            border-radius: 3px;
+        }
+
+        .selects {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+
+            select {
+                border-radius: 3px;
+                font-weight: bold;
+                font-size: 1rem;
+            }
+        }
+
+        .botones {
+            width: 80%;
+            margin: auto;
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            button {
+                padding: 3px 10px;
+                border-radius: 8px;
+                font-size: 1rem;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                transition: all 0.3s;
+            }
+
+            button:hover {
+                box-shadow: 0px 0px 8px #111;
+            }
+        }
+    }
+    .cerrar{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 2px 6px;
+        background-color: rgba(255, 0, 0, 0.5);
+        font-weight: bold;
+        text-align: center;
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    .cerrar:hover{
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+
+    .lista{
+        width: 85%;
+        margin: 5px auto;
+    }
+
+    .listaJuegos{
+        list-style: none;
+        font-weight: bold;
+    }
+
+    .juegoDatos{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 3px;
+    }
+}

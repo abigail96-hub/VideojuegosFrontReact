@@ -1,0 +1,54 @@
+.divtabla{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divtabla table{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+
+.divtabla td, .divtabla th {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0px;
+    color: #ccc;
+}
+
+.titulos{
+    background-color: black;
+    font-size: 1.2rem;
+    
+    
+}
+
+.acciones{
+    width: fit-content;
+}
+.acciones button{
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 0.75rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.acciones button:hover{
+    box-shadow: 0px 0px 8px #ccc;
+}
+
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
